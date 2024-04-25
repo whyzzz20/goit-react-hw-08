@@ -1,0 +1,22 @@
+.header {
+  padding: 0 10px;
+  border-bottom: 1px solid black;
+}
+
+.header a {
+  display: inline-block;
+  padding: 15px 0;
+  color: inherit;
+  font-weight: 700;
+}
+
+.header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  gap: 15px;
+}

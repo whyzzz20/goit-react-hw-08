@@ -1,0 +1,38 @@
+.form {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 18px;
+}
+
+.button {
+  padding: 7px;
+  min-width: 55px;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
+
+.label {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.label:first-child {
+  margin-bottom: 20px;
+}
+
+.buttonWrapper button {
+  display: block;
+  width: 100%;
+}
+
+.buttonWrapper button:first-child {
+  margin-bottom: 10px;
+}

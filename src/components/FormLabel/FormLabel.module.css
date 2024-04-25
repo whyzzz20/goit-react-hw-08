@@ -1,0 +1,23 @@
+.formLabel {
+  display: block;
+}
+
+.formLabel:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.labelTitle {
+  text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.formField {
+  display: block;
+  min-width: 300px;
+  height: 30px;
+}
+
+.errorMessage {
+  color: red;
+}
